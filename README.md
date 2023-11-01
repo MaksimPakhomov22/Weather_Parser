@@ -1,8 +1,8 @@
 # Парсер погоды
 Для работы с парсером необходимо:
 - использовать API сервиса(https://openweathermap.org/api)
-- Создать и заполнить файл .env
-- Установить виртуальное окружение venv:
+- Создать и заполнить необходимые данные в файле .env по шаблону из файла ```.env.sample```
+- Установить виртуальное окружение ```venv```:
 ```shell
 python3 -m venv venv
 ```
@@ -10,7 +10,7 @@ python3 -m venv venv
 ```shell
 source venv/bin/activate
 ```
-- Установить необходимые зависимости из файла requirements.txt:
+- Установить необходимые зависимости из файла ```requirements.txt```:
 ```shell
 - pip install -r requirements.txt
 ```
